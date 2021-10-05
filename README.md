@@ -1,6 +1,6 @@
 # Mysterious Organism (Tutorial Challenge Project)
 
-You’re part of a research team that has found a new **mysterious organism** at the bottom of the ocean near hydrothermal vents. Your team names the organism, Pila aequor (P. aequor), and finds that it is only comprised of 15 DNA bases. The small DNA samples and frequency at which it mutates due to the hydrothermal vents make P. aequor an interesting specimen to study. However, P. aequor cannot survive above sea level and locating P. aequor in the deep sea is difficult and expensive. Your job is to create objects that **simulate the DNA** of P. aequor for your research team to study.
+Assume you’re part of a research team that has found a new **mysterious organism** at the bottom of the ocean near hydrothermal vents. Your team names the organism, Pila aequor (P. aequor), and finds that it is only comprised of 15 DNA bases. The small DNA samples and frequency at which it mutates due to the hydrothermal vents make P. aequor an interesting specimen to study. However, P. aequor cannot survive above sea level and locating P. aequor in the deep sea is difficult and expensive. This project is to create objects that **simulate the DNA** of P. aequor for your research team to study.
 
 ## Technologies
 
@@ -31,6 +31,14 @@ You’re part of a research team that has found a new **mysterious organism** at
     // 'C's match with 'G's and vice versa.
 
 ```
+
+## Setup
+
+To run this project, you must have this project's files and Node.js installed.
+
+1. If you are using Mac OS or Linux OS, open your terminal. If you are using Windows OS, open Bash. 
+2. `$ cd \Users\Downloads` Go to the directory that stores this project's files.
+3. `$ node 'Mixed Messages.js'` Execute this project's script with Node.js.
 
 ## Sources
 
