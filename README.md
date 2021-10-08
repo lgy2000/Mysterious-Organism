@@ -10,24 +10,24 @@ Assume you’re part of a research team that has found a new **mysterious organi
 ## Features
 
 ```Javascript
-- console.log(pAequorFactory(specimenNum,mockUpStrand())) 
-    // Tt prints one pAequor specimen object with the specimen number and a random strand of dna. One 
+- console.log(pAequorFactory(specimenNum,mockUpStrand()))
+    // Tt prints one pAequor specimen object with the specimen number and a random strand of dna. One
     // parameter is required which is the specimen number for the specimenNum .
-- console.log(pAequor(num)) 
-    // It prints a number of pAequor specimen objects with a specimen number and a random strand of dna. 
+- console.log(pAequor(num))
+    // It prints a number of pAequor specimen objects with a specimen number and a random strand of dna.
     // One parameter is required which is the number of specimen objects you want to create for the num.
 - let x=pAequorFactory(1,mockUpStrand()); let y=pAequorFactory(2,mockUpStrand())
-  console.log(x.compareDNA(y)) 
-    // It computes how many bases are identical and in the same locations. Two parameters are required which 
-    // are the first specimen for x and the second specimen for y. 
-- let z=pAequor(num); 
-  console.log(mostRelated(z)) 
+  console.log(x.compareDNA(y))
+    // It computes how many bases are identical and in the same locations. Two parameters are required which
+    // are the first specimen for x and the second specimen for y.
+- let z=pAequor(num);
+  console.log(mostRelated(z))
     // It finds the two most related specimen objects of pAequor in a number of it.
 - console.log(x.willLikelySurvive())
-    // It will evaluate to true if the specimen’s dna contains at least 60% 'C' or 'G' bases. Otherwise, it 
+    // It will evaluate to true if the specimen’s dna contains at least 60% 'C' or 'G' bases. Otherwise, it
     will evaluate to false.
 - console.log(x.complementStrand())
-    // It computes the complementary DNA strand. The rules are that 'A's match with 'T's and vice versa. Also, 
+    // It computes the complementary DNA strand. The rules are that 'A's match with 'T's and vice versa. Also,
     // 'C's match with 'G's and vice versa.
 
 ```
@@ -36,7 +36,7 @@ Assume you’re part of a research team that has found a new **mysterious organi
 
 To run this project, you must have this project's files and Node.js installed.
 
-1. If you are using Mac OS or Linux OS, open your terminal. If you are using Windows OS, open Bash. 
+1. If you are using Mac OS or Linux OS, open your terminal. If you are using Windows OS, open Bash.
 2. `$ cd \Users\Downloads` Go to the directory that stores this project's files.
 3. `$ node 'Mixed Messages.js'` Execute this project's script with Node.js.
 
